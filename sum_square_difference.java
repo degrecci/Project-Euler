@@ -1,10 +1,6 @@
-import java.util.Scanner;
-
 public class sum_square_difference{
 
 public static void main(String[] args) {
-
-  Scanner leia = new Scanner(System.in);
 
   int[] result = new int [100];
   int i = 0, soma = 0, a = 0;
