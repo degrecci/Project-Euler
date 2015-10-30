@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sum_square_difference{
-  
+
 public static void main(String[] args) {
 
   Scanner leia = new Scanner(System.in);
@@ -11,17 +11,12 @@ public static void main(String[] args) {
 
     for(int x = 0; x <= 100; x++){
       result[i] = x * x;
-
       soma = result[i] + soma;
     }
-
     for(int y = 0; y <= 100; y++){
-
       a = a + y;
     }
-
     int resultadofinal = a*a - soma;
-
     System.out.println("Square of the sum:  "+ a*a);
     System.out.println("Sum os the squares: "+ soma);
     System.out.println("-----------------------------");
