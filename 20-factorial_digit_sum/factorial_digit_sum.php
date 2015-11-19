@@ -3,7 +3,7 @@
 $resultado = 1;
 $fatorial = 100;
 
-for($i = 2; $i <= 100; $i++){
+for($i = 2; $i <= $fatorial; $i++){
 
     $resultado=bcmul($resultado, $i);
 }
