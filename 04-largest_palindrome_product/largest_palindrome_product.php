@@ -13,13 +13,11 @@ while ($x1 < 999) {
     $array = str_split($result);
     if($array[0] == $array[5] && $array[1] == $array[4] && $array[2] == $array[3])
     {
-      echo "$x1 * $x2 = $result <br>";
-      print_r($array);
-      echo "<br>";
+      $r[] = $result;
     }
   }
-$x2 = 10;
+$x2 = 100;
 }
-
-
+rsort($r);
+echo $r[0]; # Execution time 40.994345 s
 ?>
