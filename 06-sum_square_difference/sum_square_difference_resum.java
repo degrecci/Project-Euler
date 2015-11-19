@@ -1,5 +1,4 @@
 public class sum_square_difference_resum{
-
 public static void main(String[] args) {
 
     int res1 = 0, res2 = 0;
