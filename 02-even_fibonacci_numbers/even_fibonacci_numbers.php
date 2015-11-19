@@ -1,5 +1,4 @@
 <?php
-
 echo "<b>Even Fibonacci numbers:</b> ";
 
 $a = 1;
@@ -10,7 +9,6 @@ $soma = 2;
 while ($x <= 4000000){
 
   echo "$a, ";
-
   $x = $a + $b;
   $a = $b;
   $b = $x;
