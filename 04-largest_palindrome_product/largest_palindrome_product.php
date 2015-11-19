@@ -1,11 +1,9 @@
 <?php
 $x1=100;
 $x2=100;
-
 while ($x1 < 999) {
   $result = $x1 * $x2;
   $x1++;
-
   while ($x2 <= 999)
   {
     $result = $x1 * $x2;
